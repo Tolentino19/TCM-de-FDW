@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Contato</title>
+	<meta charset="UTF-8">
+	<link rel="icon" href="../static/img/icon.png">
+	<link rel="stylesheet" href="../static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../static/css/site.css">
+
+</head>
+
+<body>
+	<!-- Barra de navegação: -->
+	<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<a class="navbar-brand" href="Index.html">AO2 de FDW</a>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="Servicos.html">Serviços</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Sobre.html">Sobre</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Contato.html">Contato</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	
+	<div class="container-fluid">
+		<h1>Contate-nos</h1>
+		<br/>
+	</div>
+	
+	<!-- formulário desktop: -->
+	<div class="container-fluid hidden-sm-down">
+		<div class="row">
+			<div class="col">
+				<form>
+					<div class="form-group">
+						<label for="nome">Nome</label>
+						<input required="required" type="text" class="form-control" id="nome" placeholder="Digite seu nome aqui">
+					</div>
+					<div class="form-group">
+						<label for="email">E-mail</label>
+						<input required="required" type="email" class="form-control" id="email" aria-describedby="emailAjuda" placeholder="Digite seu e-mail aqui">
+						<small id="emailHelp" class="form-text">Não se preocupe, não compartilharemos seu e-mail com ninguém.</small>
+					</div>
+					<div class="form-group">
+						<label for="mensagem">Mensagem</label>
+						<textarea required="required" class="form-control" id="mensagem" rows="5" placeholder="Digite sua mensagem aqui"></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary">Enviar</button>
+				</form>
+			</div>
+			<div class="col-8"></div>
+		</div>
+	</div>
+	
+	<!--Formulário mobile:-->
+	<div class="container-fluid hidden-md-up">
+		<form>
+			<div class="form-group">
+				<label for="nome">Nome</label>
+				<input required="required" type="text" class="form-control" id="nome" placeholder="Digite seu nome aqui">
+			</div>
+			<div class="form-group">
+				<label for="email">E-mail</label>
+				<input required="required" type="email" class="form-control" id="email" aria-describedby="emailAjuda" placeholder="Digite seu e-mail aqui">
+				<small id="emailHelp" class="form-text text-muted">Não se preocupe, não compartilharemos seu e-mail com ninguém.</small>
+			</div>
+			<div class="form-group">
+				<label for="mensagem">Mensagem</label>
+				<textarea required="required" class="form-control" id="mensagem" rows="5" placeholder="Digite sua mensagem aqui"></textarea>
+			</div>
+			<button type="submit" class="btn btn-primary">Enviar</button>
+		</form>
+	</div>
+	
+</body>
+
+<footer class="footer">
+	<hr/>
+	<div class="container-fluid">
+		<p>AO2 de FDW - 2017.</p>
+	</div>
+</footer>
+	
+	<script src="../static/js/jquery-3.1.1.min.js"></script>
+	<script src="../static/js/tether.min.js"></script>
+	<script src="../static/js/site.js"></script>
+	<script src="../static/js/bootstrap.min.js"></script>
+	<script src="../static/js/site.js"></script>
+	
+</html>

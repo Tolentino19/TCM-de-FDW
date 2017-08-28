@@ -1,0 +1,36 @@
+body {
+	background-color: black;
+}
+
+footer p {
+	color: white;
+}
+
+label {
+	color: white;
+}
+
+small {
+	color: white;
+	}
+
+h1 {
+	color: white;
+}
+
+h2 {
+	color: white;
+}
+
+li {
+	color: white;
+}
+
+p {
+	color: lightgrey;
+}
+
+hr {
+	border-color: white;
+	background-color: white;
+}
