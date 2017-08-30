@@ -1,0 +1,7 @@
+Trabalho de Fundamentos do Desenvovimento Web do Curso Técnico de Informática do IFSC.
+Alunos: Bruno Tolentino de Souza; Diego Bracellos; e Edson Mario Marinho.
+
+Para rodar o website execute o atalho: 'Site'.
+
+Observações: O website foi feito com a plataforma móvel em mente ('mobile first'), mas funciona perfeitamente em desktops.
+Para verificar a sua responsividade basta ajustar o tamanho do navegador e observar como ele se ajusta (reorganizando seu conteúdo) conforme o tamanho da janela.
